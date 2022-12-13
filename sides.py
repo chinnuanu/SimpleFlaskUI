@@ -3,6 +3,7 @@
 a = 5
 b = 6
 c = 7
+d = 8
 
 # Uncomment below to take input from the user
 # a = float(input('Enter first side: '))
@@ -10,8 +11,8 @@ c = 7
 # c = float(input('Enter third side: '))
 
 # calculate the semi-perimeter
-s = (a + b + c) / 2
+s = (a + b + c + d) / 2
 
 # calculate the area
 area = (s*(s-a)*(s-b)*(s-c)) ** 0.5
-print('The area of the triangle is %0.2f' %area)
+print('The area of the triangle is %0.2f' %area);
